@@ -4,7 +4,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-mcqview.svg)](https://www.npmjs.com/package/react-mcqview) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-<img src="https://user-images.githubusercontent.com/108924653/181242155-0b59c2bd-4630-4547-8c21-e254442161d6.png" width="300">
+<img src="https://user-images.githubusercontent.com/108924653/181246806-95a0f71e-5b82-48c7-a213-20759df49fbb.png" width="300">
 
 ## Demo
 
