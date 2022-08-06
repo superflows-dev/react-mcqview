@@ -1,6 +1,6 @@
 {
   "name": "react-mcqview",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A customizable multiple choice question react component that is based on the superflows design language.",
   "author": "superflows-dev",
   "license": "MIT",
@@ -15,18 +15,20 @@
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
-    "test": "run-s test:unit test:lint test:build",
+    "test": "run-s test:unit",
     "test:build": "run-s build",
     "test:lint": "eslint .",
-    "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:unit": "cross-env CI=1 react-scripts test --env=jsdom --verbose=true --coverage",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0||^17.0.0||^18.0.0"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "12.1.2",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.3",
     "eslint": "^6.8.0",
@@ -52,8 +54,9 @@
   ],
   "dependencies": {
     "bootstrap": "^5.2.0",
-    "react-bootstrap": "^2.4.0",
-    "react-bootstrap-icons": "^1.8.4"
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-ui-components-superflows": "^1.0.28"
   },
   "keywords": [
     "react",
