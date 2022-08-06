@@ -108,7 +108,7 @@ A sample formdata is show below in the usage section. Form data is an array of q
 
 ### Demo
 
-[![Demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-ts-sc1r3h?file=App.tsx)
+[![Demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/react-ts-zngqnz?file=App.tsx)
 
 
 ### Usage
